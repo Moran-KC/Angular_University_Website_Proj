@@ -1,0 +1,19 @@
+<div style="overflow-x: hidden;">
+<div class="row" style="padding-right: 2px; padding-left: 2px;
+background-color:rgb(229, 213, 192);
+">
+<div style="width:5%">
+    <a routerLink="/main"><img style="width: 64px;min-height:3px" src="https://cdn0.iconfinder.com/data/icons/pixel-perfect-at-24px-volume-2/24/2010-64.png"/>
+    </a>
+</div>
+<div style="width: 95%;margin-top: 15px;">
+    <h2> Welcome To TMU Collage</h2>
+</div>
+</div>
+<div class = 'row ' >
+<button class="button button1 col-4" style="border-radius: 0px; border:solid 1px ; border-color:antiquewhite;"  [routerLink]="['/teachers']">Teachers</button>
+<button class="button button2 col-4" style="border-radius: 0px;" [routerLink]="['/employees']">Employees</button>
+<button class="button button3 col-4" style="border-radius: 0px; border:solid 1px ; border-color:antiquewhite;" [routerLink]="['/pupils']">Pupils</button>
+</div>
+</div>
+<router-outlet></router-outlet>
